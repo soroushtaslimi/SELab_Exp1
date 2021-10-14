@@ -21,7 +21,7 @@ def divide(a, b):
     return a / b
 
 
-def calculate(oprator, operand1, operand2):
+def calculate(operator, operand1, operand2):
     if operator == '+':
         return add(operand1, operand2)
     elif operator == '-':
