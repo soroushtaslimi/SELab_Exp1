@@ -18,7 +18,10 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    return a / b
+    if b == 0:
+        return "ERROR: divide by zero"
+    else:
+        return a / b
 
 
 def calculate(operator, operand1, operand2):
