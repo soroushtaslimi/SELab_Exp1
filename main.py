@@ -21,6 +21,19 @@ def divide(a, b):
     return a / b
 
 
+def calculate(oprator, operand1, operand2):
+    if operator == '+':
+        return add(operand1, operand2)
+    elif operator == '-':
+        return minus(operand1, operand2)
+    elif operator == '*':
+        return multiply(operand1, operand2)
+    elif operator == '/':
+        return divide(operand1, operand2)
+    
+
+
 if __name__ == '__main__':
     operator, operand1, operand2 = get_inputs()
-
+    res = calculate(operator, operand1, operand2)
+    print(res);
