@@ -9,6 +9,10 @@ def add(a, b):
     return a + b
 
 
+def minus(a, b):
+    return a - b
+
+
 if __name__ == '__main__':
     operator, operand1, operand2 = get_inputs()
 
